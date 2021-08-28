@@ -59,7 +59,7 @@ class GuildChat(commands.Cog):
 
     @commands.command()
     @commands.is_owner()
-    async def sudo(*, msg: str = None) -> None:
+    async def sudo(self, ctx, *, msg: str = None) -> None:
         if msg is None:
             await ctx.send('You need to provide a message to send!')
         else:
