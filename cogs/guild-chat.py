@@ -5,6 +5,7 @@ from minecraft.networking.connection import Connection
 from minecraft.networking.packets import clientbound, serverbound, keep_alive_packet
 from constants import GUILD_CHAT_CHANNEL, MINECRAFT_EMAIL, MINECRAFT_PASSWORD, EMOJIS
 from discord.ext import commands
+from discord.ext.commands import Bot
 import discord
 import asyncio
 import random
