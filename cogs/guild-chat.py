@@ -296,5 +296,3 @@ def insert_invis(msg):
 
 def setup(bot):
     bot.add_cog(GuildChat(bot))
-    
-await bot.change_presence(activity=discord.Game(name="Made by @hqss#4942"))
