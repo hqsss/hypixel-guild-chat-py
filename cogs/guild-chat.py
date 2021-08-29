@@ -297,12 +297,4 @@ def insert_invis(msg):
 def setup(bot):
     bot.add_cog(GuildChat(bot))
     
-    
-@bot.event
-async def on_ready():
-    activity = discord.Game(name="Netflix", type=3)
-    await bot.change_presence(status=discord.Status.idle, activity=activity)
-    print("Bot is ready!")
-
-bot.run('TOKEN')
-
+await bot.change_presence(activity=discord.Game(name="Made by @hqss#4942"))
