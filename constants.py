@@ -11,7 +11,7 @@ EMOJIS = {
     'LEAVE': '[LEAVE]'  # When a member leaves Hypixel
 }
 # List of Owner IDs (to use commands like sumo)
-OWNER_IDS = [635097068741853204]
+OWNER_IDS = [635097068741853204, 397118377987932160]
 
 
 # Don't touch this unless you know what you're doing
